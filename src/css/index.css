@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background: rgb(255,165,132);
+    background: linear-gradient(328deg, rgba(255,165,132,1) 8%, rgba(255,233,183,1) 39%, rgba(255,152,242,1) 61%, rgba(255,152,137,1) 97%);
+    height: 100vh; 
+}
+
+.img-task{
+    width: 100%;
+}
+
+.scrollP::-webkit-scrollbar{
+    width:7px;
+}
+.scrollP::-webkit-scrollbar-thumb{
+    background: rgb(113, 163, 255);
+    border-radius: 5px;
+}
